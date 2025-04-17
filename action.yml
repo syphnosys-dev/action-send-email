@@ -27,3 +27,7 @@ inputs:
 runs:
   using: "node16"
   main: "send-email.js"
+
+branding:
+  icon: "mail"
+  color: "blue"
