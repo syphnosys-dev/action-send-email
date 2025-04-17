@@ -1,4 +1,4 @@
-name: "Send Email via GitHub Nodemailer"
+name: "Send Email via Nodemailer"
 description: "Send email using Node.js and nodemailer"
 author: "vipulkumar"
 inputs:
