@@ -1,0 +1,29 @@
+name: "Send Email"
+description: "Send email using Node.js and nodemailer"
+author: "your-name"
+inputs:
+  to:
+    description: "Recipient email address"
+    required: true
+  subject:
+    description: "Subject line"
+    required: true
+  body:
+    description: "Email body"
+    required: true
+  smtp_host:
+    description: "SMTP host"
+    required: true
+  smtp_port:
+    description: "SMTP port"
+    required: true
+  smtp_user:
+    description: "SMTP user"
+    required: true
+  smtp_pass:
+    description: "SMTP password"
+    required: true
+
+runs:
+  using: "node16"
+  main: "send-email.js"
