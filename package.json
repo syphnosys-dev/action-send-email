@@ -3,6 +3,26 @@
   "version": "1.0.0",
   "main": "send-email.js",
   "dependencies": {
-    "nodemailer": "^6.9.1"
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "nodemailer": "^6.10.1"
+  },
+  "description": "**Send mail GitHub Action**",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syphnosys-dev/action-send-email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syphnosys-dev/action-send-email/issues"
+  },
+  "homepage": "https://github.com/syphnosys-dev/action-send-email#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
   }
 }
