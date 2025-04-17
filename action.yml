@@ -1,6 +1,6 @@
-name: "Syphnosys Email Action"
+name: "Send Email via GitHub Nodemailer"
 description: "Send email using Node.js and nodemailer"
-author: "syphnosys-developer"
+author: "vipulkumar"
 inputs:
   to:
     description: "Recipient email address"
