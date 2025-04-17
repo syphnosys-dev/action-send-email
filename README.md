@@ -1,3 +1,5 @@
+**Send mail GitHub Action**
+
 - name: Send Email
   uses: your-username/send-email-action@v1
   with:
@@ -8,4 +10,3 @@
     smtp_port: "465"
     smtp_user: ${{ secrets.SMTP_USER }}
     smtp_pass: ${{ secrets.SMTP_PASS }}
-
